@@ -1,0 +1,25 @@
+html, body, blockquote, div, h1, h2, h3, p, a, img, span, input, form, button, span, ul, li{
+    padding: 0;
+    margin: 0;
+
+}
+li,ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+    font-size: 14px;
+    background: #fff;
+}
+a{
+	color: #333;
+}
+a:hover{
+	cursor: pointer;
+}
+.iconfont{
+	padding-right:2px;
+}

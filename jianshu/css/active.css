@@ -1,0 +1,433 @@
+body{
+	font-size: 16px;
+}
+
+/* 文章页面外套 */
+.page-warp{
+	margin: 0 auto;
+	width: 620px;
+	overflow: hidden;
+}
+
+/* 文章开始 */
+.page-active .author{
+	margin: 30px 0 40px;
+}
+
+.page-active .author img{
+	width: 48px;
+	height: 48px;
+}
+.page-active .author .info{
+	display: inline-block;
+	vertical-align:middle;
+}
+.page-active .author .follow{
+    border-color: #42c02e;
+    background: #42c02e;
+    border-radius: 40px;
+    color: #fff;
+    padding: 2px 10px;
+    font-size: 12px;
+    text-align: center;
+}
+.author .follow i{
+    vertical-align: middle;
+}
+.page-active .info .meta{
+	padding:5px 0 0 10px; 
+}
+
+
+/* 文章内容 */
+.page-active-ct img{
+	width: 100%;
+}
+.txt{
+	padding: 10px 15px;
+}
+.page-active-ct .txt blockquote{
+	margin: 25px 0;
+    background-color: #f7f7f7;
+    border-left: 6px solid #b4b4b4;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* 文章分类 */
+.page-active .tag{
+	margin: 10px
+	
+}
+.page-active .tag a,
+.page-active .tag span{
+	color: #9b9b9b;
+	font-size: 12px;
+}
+.page-active .tag span{
+	margin-left: 20px;
+}
+
+
+/* 文章底部作者 */
+.block .author{
+    background-color: hsla(0,0%,71%,.1);
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    font-size: 12px; 
+}
+.block .author .info{
+	min-width: 520px;
+	max-width: 588px;
+}
+.block .info .follow{
+	padding: 10px 25px;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.block .info .name{
+    margin-right: 3px;
+    font-size: 17px;
+    line-height: 1.8;
+    vertical-align: middle;
+}
+.block .info p{
+	margin-left: 8px;
+	color: #969696;
+}
+.block .author .signatrue{
+	border-top: 1px solid #e1e1e1;
+	padding-top: 10px;
+	margin: 15px 0 8px;
+	color: #969696;
+}
+
+/* 打赏 */
+.support-author{
+	border-bottom: 1px solid #96969630;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.support-author p,
+.support-author .btn{
+	padding-bottom: 30px;
+}
+.support-author .btn{
+    margin-bottom: 20px;
+    padding: 8px 25px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ea6f5a;
+    border-radius: 20px;
+}
+
+/* 喜欢和分享 */
+.like-active{
+	margin: 40px 0;
+
+}
+.like-active>a{
+    color: #ea6f5a;
+    border: 1px solid #ea6f5a;
+    padding: 15px 25px;
+    border-radius: 40px;
+    margin-top: 10px;
+    display: inline-block;
+
+}
+.share-active{
+	margin-top: 10px;
+}
+.share-active a{
+    border: 1px solid #dcdcdc;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    text-align: center;
+	vertical-align: middle;
+    display: inline-block;
+    line-height: 50px;
+    color: #dcdcdc;
+
+}
+.share-active .more{
+	width: 150px;
+	border-radius: 100px;
+	line-height: 50px;
+	color: #9b9b9b;
+}
+.share-active a i{
+	font-size: 25px;
+}
+.share-active .icon-weixin{
+	color: #00bb29;
+	
+}
+.share-active .icon-sina{
+	color: #e05244;
+}
+.share-active .icon-weibiaoti102-copy{
+	color: #9b9b9b;
+}
+
+.like-active>a:hover,
+.share-active a:hover{
+	background: hsla(0,0%,71%,.1);
+}
+
+
+/* 广告 */
+.page-warp .banner{
+	display: inline-block;
+	width: 100%;
+	margin:20px 0;
+}
+.page-warp .banner img{
+	width: 100%;
+}
+
+
+
+/* 评论框 */
+.comment-frame{
+	height: 70px;
+	text-align: center;
+	vertical-align: middle;
+	margin-bottom: 20px;
+}
+.comment-frame>a{
+	display: inline-block;
+}
+.comment-frame>a>img{
+	width: 38px;
+    height: 38px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+.comment-frame .sign-container{
+	font-size: 14px;
+	margin-left: 50px;
+	line-height: 70px;
+	border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    background-color: hsla(0,0%,71%,.1);
+    outline-style: none;
+
+}
+.comment-frame .sign-container a{
+    width: 78px;
+    margin: 11px 10px 0 0;
+    padding: 7px 18px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    color: #fff!important;
+    background-color: #3194d0;
+    outline: none;
+}
+
+
+/* 评语 */
+
+.content-warp .title{
+	padding: 50px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+.content-warp .title a{
+	font-size: 12px;
+	color: #969696;
+	
+}
+.content-warp .title span{
+    font-size: 17px;
+    font-weight: 700;
+}
+.content-warp .title .author{
+	margin-left: 10px;
+    padding: 4px 8px;
+    border: 1px solid #e1e1e1;
+    border-radius: 12px;
+}
+.content-warp .title .highlight{
+	color: #2f2f2f;
+}
+
+
+
+
+
+/* 评论内容 */
+.comment-content{
+	padding: 30px 0;
+	border-bottom: 1px solid #f0f0f0;
+}
+.comment-content img{
+	width: 38px;
+	height: 38px;
+	vertical-align: middle;
+}
+.comment-content>.author>a{
+	float: left;
+}
+.comment-content .author .info{
+    margin-left: 50px;
+    line-height: 18px;
+}
+.comment-content .info a{
+	display: block;
+}
+.comment-content .info .meta{
+	color: #969696;
+}
+
+/* 评语 */
+.comment-content>p{
+	padding:15px 0;
+}
+.comment-content .tool-group a{
+	color: #969696;
+	margin-right: 8px;
+	font-size: 14px;
+}
+
+.comment-content .sub-comment-list{
+	font-size: 14px;
+	margin: 20px 0 10px 0;
+	padding-left: 20px;
+	border-left: 2px solid #f0f0f0;
+}
+.comment-content .sub-comment-list a{
+	display: inline-block;
+}
+.sub-comment-list .info>a{
+	color: #3194d0;
+	padding-right: 5px;
+}
+.sub-comment-list .info{
+	padding: 5px 0;
+	border-bottom: 1px solid #f0f0f0;
+
+}
+.sub-comment-list .sub-tool-group span,
+.sub-comment-list .sub-tool-group a{
+	padding:5px 0;
+	color: #969696;
+}
+.sub-comment-list .module a{
+	padding-top: 25px;
+	color: #969696;
+	
+}
+.sub-comment-list .sub-tool-group a{
+	padding-left: 10px;
+}
+
+
+
+/* 分页按钮 */
+.content-warp .pagination{
+	margin: 20px 0;
+	height: 40px;
+	text-align: center;
+}
+.content-warp .pagination li{
+	margin: 0 5px;
+    display: inline-block;
+}
+.pagination li a{
+	border-radius: 20px;
+    border: 1px solid #ddd;
+    padding: 6px 12px;
+    line-height: 1.42857;
+    font-size: 14px;
+    color: #969696!important
+}
+
+/* 底部推荐专题 */
+.buttom-note{
+	width: 100%;
+	background-color: #f5f5f5;
+}
+
+.buttom-note .title{
+	margin: 20px 0;
+	padding-left: 10px;
+	font-size: 14px;
+	border-left: 4px solid #ea6f5a;
+}
+.buttom-note .all-special{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.buttom-note .all-special a{
+	display: inline-block;
+    margin: 0 12px 12px 0;
+    min-height: 32px;
+    background-color: white;
+    border: 1px solid #DCDCDC;
+    border-radius: 4px;
+    vertical-align: top;
+    overflow: hidden;
+    font-size: 14px;
+}
+.buttom-note .all-special .more{
+	line-height: 32px;
+	border: 0;
+	background: #f5f5f5;
+	color: #A0A0A0;
+}
+.all-special a img{
+	width: 32px;
+	height: 32px;
+	vertical-align: middle;
+}
+.all-special a span{
+	padding: 0 8px;
+}
+
+/* 底部推荐文章 */
+
+.recommend-note>.title{
+
+	padding-left: 10px;
+	font-size: 14px;
+	border-left: 4px solid #ea6f5a;
+	display: block;
+}
+.recommend-note>.title>a{
+	color: #A0A0A0;
+}
+
+.recommend-active{
+	position: relative;
+	border-bottom: 1px solid rgba(204, 204, 204, 0.2);
+	padding-bottom: 20px;
+
+}
+.recommend-active .pic{
+	display: block;
+	padding-top: 10px;
+}
+.recommend-active .summary{
+    font-size: 13px;
+    line-height: 23px;
+    color: #333333;
+    overflow: hidden;
+}
+
+.active-content .title{
+	border-left: 0;
+}
+.recommend-active .author{
+	font-size: 14px;
+	display: block;
+}
+.recommend-active .author img{
+	width: 24px;
+	height: 24px;
+}

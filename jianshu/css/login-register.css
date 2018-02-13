@@ -1,0 +1,201 @@
+body{
+	background-color: #f1f1f1;
+}
+.sign{
+	width: 100%;
+	min-height: 750px;
+    text-align: center;
+    font-size: 14px;
+}
+.sign .logo{
+	position: absolute;
+    top: 56px;
+    margin-left: 50px;
+}
+.sign .main{
+    width: 400px;
+    margin: 200px auto 0;
+    padding: 50px 50px 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.sign .main .title{
+	margin: 0 auto 50px;
+    padding: 10px;
+    font-weight: 400;
+}
+.main .title a,
+.main .title b{
+    color: #969696;
+}
+.main .title a{ 
+	margin: 0 15px;
+	padding: 8px 10px;
+    font-size: 20px;
+}
+.main .title a.sign-in{
+	border-bottom: 2px solid #ea6f5a;
+	color: #ea6f5a;
+	font-weight: bold;
+}
+
+/* 登录表单 */
+.sign form{
+    margin-bottom: 30px;
+}
+
+.sign form .input-group{
+    position: relative;
+    width: 100%;
+
+}
+.sign .input-group input{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 0;
+    padding: 4px 0 4px 60px;
+    border: 1px solid #c8c8c8;
+    background-color: hsla(0,0%,71%,.1);
+    vertical-align: middle;
+    outline: none;
+    font-size: 15px;
+}
+.sign .input-group input.user{
+	border-bottom: none;
+    border-radius: 4px 4px 0 0;
+}
+.sign .input-group i{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    font-size: 18px;
+    color: #969696;
+}
+.sign .input-group input.password{
+	margin-bottom: 20px;
+}
+
+
+
+.sign .remember-btn,
+.sign .forget-btn{
+	padding: 20px 0;
+	display: inline-block;
+}
+.sign .remember-btn{
+	color: #969696;
+	float: left;
+	padding-left: 23px;
+}
+.sign .forget-btn{
+	float: right;
+	padding-right: 23px;
+}
+.sign .forget-btn a{
+	color: #969696;
+}
+
+
+/* 登录 */
+.sign .sign-in-btn{
+	display: block;
+	clear: both;
+    background: #3194d0;
+    padding: 9px 18px;
+    font-size: 18px;
+    border-radius: 25px;
+    color: #fff;
+    width: 350px;
+    margin: 0 auto;
+    border: 0;
+    cursor: pointer;
+}
+.sign .sign-in-btn:hover{
+	background: #187cb7;
+}
+
+
+/* 更多登录 */
+.sign .more-sign{
+	color: #969696;
+}
+.sign .more-sign span{
+	padding: 0 25px;
+}
+.sign .more-sign ul{
+	width: 300px;
+	display: block;
+	height: 50px;
+	margin: 0 auto;
+}
+.sign .more-sign li{
+	float: left;
+}
+.sign .more-sign li a{
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+    line-height: 50px;
+    color: #fff;
+    margin-left: 20px;
+}
+.sign .more-sign li i{
+	font-size: 25px;
+}
+.sign .more-sign .sina{
+    background-color: #e05244;
+}
+.sign .more-sign .weixin{
+    background-color: #00bb29;
+}
+.sign .more-sign .qq{
+    background-color: #498ad5;
+}
+.sign .more-sign .qita{
+    background-color: hsla(0,0%,71%,.2);
+    font-size: 14px;
+    color: #787878;
+}
+
+/* 注册页面 */
+.sign-out-btn{
+	background: #42c02e;
+	display: block;
+	clear: both;
+    padding: 9px 18px;
+    font-size: 18px;
+    border-radius: 25px;
+    color: #fff;
+    width: 350px;
+    margin: 0 auto;
+    border: 0;
+    cursor: pointer;
+}
+.sign-out{
+	border-bottom: 2px solid #ea6f5a;
+	color: #ea6f5a;
+	font-weight: bold;
+}
+.sign-out-btn{
+	margin-top: 20px;
+}
+.sign-out-btn:hover{
+	background: #3db922;
+}
+
+.input-group .phone{
+	border-bottom: 0;
+}
+.sign-out-msg{
+	margin: 20px 0;
+    font-size: 12px;
+    line-height: 20px;
+}
+.sign-out-msg a{
+	color: #3194d0;
+}
