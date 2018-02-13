@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>360浏览器</title>
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+</head>
+<body>
+	<!-- 头部区域 -->
+	<header>
+		<h1 class="logo"></h1>
+		<ul class="nav">
+			<li><a href="#">首页</a></li>
+			<li><a href="#">扩展</a></li>
+			<li><a href="#">论坛</a></li>
+			<li><a href="#">回到旧版</a></li>
+		</ul>
+	</header>
+
+	<!-- 主要内容 -->
+	<div class="swiper-container">
+	    <div class="swiper-wrapper">
+	        <div class="swiper-slide page1">
+	        	<div class="text"><a class="download" href=""></a></div>
+	        	<div class="object"></div>
+	        	<div class="arrow"></div>
+	        </div>
+	        <div class="swiper-slide page2">
+	        	<div class="object"></div>
+	        	<div class="arrow"></div>
+	        </div>
+	        <div class="swiper-slide page3">
+	        	<div class="object"></div>
+	        	<div class="arrow"></div>
+	        </div>
+	        <div class="swiper-slide page4">
+	        	<div class="object"></div>
+	        	
+	        </div>
+	    </div>
+	   
+	</div>
+	
+
+
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script>
+
+		window.onload = function() {
+			var mySwiper = new Swiper('.swiper-container', {
+				direction: 'vertical',
+		        mousewheel: true,
+		    })
+		    $('.arrow').click(function() {
+		    	mySwiper.slideNext();
+		    })
+		}
+		
+	</script>
+</body>
+</html>
